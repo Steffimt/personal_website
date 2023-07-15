@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
 }
 :root{
     --index: calc(1vw + 1vh);
@@ -28,6 +30,113 @@ body{
     font-family: roboto;
     line-height: 1.55;
 }
+.navbar{
+    position: absolute;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 3;
+}
+.navbar a{
+    /* font-size: 1.1rem; */
+    color: #FFF;
+}
+.navbar .logo{
+    font-size: 2em;
+    font-weight: bold;
+    text-shadow: 0px 0px 6.24px #FFF, 0px 0px 12.48px #FFF, 0px 0px 43.68px #FFF, 0px 0px 87.36px #FFF, 0px 0px 149.76px #FFF, 0px 0px 262.08px #FFF;
+}
+.navbar .nav-links ul{
+    display: flex;
+}
+.navbar .nav-links ul li{
+    margin: 0 20px;
+}
+/* .navbar .nav-links ul li.active a{
+    color: #FFF;
+    text-shadow: 0px 0px 6.24px #FFF, 0px 0px 12.48px #FFF, 0px 0px 43.68px #FFF, 0px 0px 87.36px #FFF, 0px 0px 149.76px #FFF, 0px 0px 262.08px #FFF;
+} */
+.navbar .nav-links ul li.active a{
+    color: #ffdc69;
+    text-shadow: 0px 0px 6.24px #ffdc69, 0px 0px 12.48px #ffdc69, 0px 0px 43.68px #ffdc69, 0px 0px 87.36px #ffdc69, 0px 0px 149.76px #9d822b, 0px 0px 262.08px #ffdc69;
+    font-weight: 400;
+}
+.navbar .nav-links ul li.next a{
+    color: #FFF;
+    text-shadow: 0px 0px 6.24px #FFF, 0px 0px 12.48px #FFF, 0px 0px 43.68px #FFF, 0px 0px 87.36px #FFF, 0px 0px 149.76px #FFF, 0px 0px 262.08px #FFF;
+}
+/* .navbar .menu-hamburger{
+    display: none;
+    position: absolute;
+    top: 55px;
+    right: 50px;
+    width: 35px;
+    cursor: pointer;
+} */
+
+/* .menu{
+    width: 1rem;
+    height: 5px;
+    margin: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.menu span{
+    background: #FFF;
+    width: 2rem;
+    height: 3px;
+    border-radius: 5px;
+    display: block;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    transition: transform 0.5s, width 0.5s;
+}
+.menu .line-1{
+    transform: translate(-50%, -10px);
+}
+.menu .line-3{
+    transform: translate(-50%, 7px);
+}
+.openmenu .line-1{
+    transform: translate(-50%, -50%) rotate(-45deg);
+}
+.openmenu .line-3{
+    transform: translate(-50%, -50%) rotate(45deg);
+}
+.openmenu .line-2{
+    width: 0;
+} */
+.layers .smallball{
+    position: relative;
+    left: -10px;
+    top: -30px;
+    height: 15px;
+    width: 15px;
+    background: radial-gradient(circle at 75% 25%, #fff 5px, #000000 4%, #000000 30%, #000000 50%);
+    border-radius: 50%;
+    box-shadow:
+    inset 0 0 10px #fbe290,
+    inset 5px 0 23px #fbe290,
+    inset -10px -30px 40px rgb(255, 255, 255),
+    inset 0 25px 70px #ffdc69,
+    0 0 45px #ffdc69;
+    animation: float 2.5s ease-in-out infinite;
+    fill: radial-gradient(20% 20.00% at 20.00% 20.00%, #FFF 0%, #FFF 100%);
+    filter: drop-shadow(0px 0px 2.4px #F9D025) drop-shadow(0px 0px 4.8px #F9D025) drop-shadow(0px 0px 16.8px #F9D025);
+    z-index: 2;
+}
+@keyframes float {
+    0%, 100% {
+      transform: translateY(0px);
+    }
+    50% {
+      transform: translateY(-30px);
+    }
+  }
 .main-header{
     position: relative;
 }
@@ -128,3 +237,50 @@ body{
     font-size: calc(var(--index) * .75);
     letter-spacing: calc(var(--index) / 37.5);
 }
+
+
+
+
+
+
+
+
+/* @media screen and (max-width: 768px){
+    .navbar{
+        padding: 0;
+    }
+    .navbar .logo{
+        position: absolute;
+        top: 48px;
+        left: 50px;
+    }
+    .navbar .menu-hamburger{
+        display: block;
+    }
+    .nav-links{
+        top: 0;
+        left: 0;
+        position: absolute;
+        background-color: rgba(250, 233, 177, 0.122);
+        backdrop-filter: blur(5px);
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: -100%;
+        transition: all 0.5s ease;
+    }
+    .nav-links.mobile-menu{
+        margin-right: 0;
+    }
+    .nav-links ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .navbar .nav-links ul li{
+        margin: 25px 0;
+        font-size: 1.8em;
+    }
+} */
