@@ -453,9 +453,9 @@ section .cards{
 }
 .reveal{
     position: relative;
-    transform: translateY(120px);
+    transform: translateY(130px);
     opacity: 0;
-    transition: all 2s ease;
+    transition: all 1.5s ease;
 }
 .reveal.active{
     transform: translateY(0px);
