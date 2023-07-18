@@ -17,3 +17,4 @@ ScrollSmoother.create({
 // menuIcon.addEventListener('click',()=>{
 //     navLinks.classList.toggle('mobile-menu')
 // })
+
