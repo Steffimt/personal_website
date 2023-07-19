@@ -9,6 +9,8 @@
     --index: calc(1vw + 1vh);
     --text: #FFF;
     --transition: transform .75s cubic-bezier(.075, 0.5, 0, 1);
+    --card-color: #010101;
+    /* --card-color: rgb(23,23,23); */
 }
 @font-face{
     font-family: raleway_f;
@@ -314,21 +316,174 @@ section .cards{
     align-items: center;
     display: flex;
 }
-.text-card{
-    border: 1px solid white;
+.text-card1{
+    /* background-color: rgba(255,255,255, 0.1); */
+    /* border: 0.1px solid rgba(255, 255, 255, 0.5); */
     border-radius: 15px;
     margin: 40px;
-    padding: 20px;
+    padding: 3px;
     height: 320px;
     width: 46%;
+    box-shadow: 1px 1px 10px #cd3030;
+    cursor: pointer;
+    position: relative;
 }
-.text-card h3{
+.text-card2{
+    /* background-color: rgba(255,255,255, 0.02);
+    border: 1px solid rgba(255, 255, 255, 0.1); */
+    /* border: 0.1px solid rgba(255, 255, 255, 0.5); */
+    border-radius: 15px;
+    margin: 40px;
+    padding: 3px;
+    height: 320px;
+    width: 46%;
+    box-shadow: 1px 1px 10px #0f865e;
+    cursor: pointer;
+    position: relative;
+}
+.text-card3{
+    /* background-color: rgba(255,255,255, 0.02);
+    border: 1px solid rgba(255, 255, 255, 0.1); */
+    /* border: 0.1px solid rgba(255, 255, 255, 0.5); */
+    border-radius: 15px;
+    margin: 40px;
+    padding: 3px;
+    height: 320px;
+    width: 46%;
+    box-shadow: 1px 1px 10px #5480c7;
+    cursor: pointer;
+    position: relative;
+}
+.text-card1 h3{
     font-size: 30px;
     text-align: center;
     margin-bottom: 10px;
 }
-.text-card p{
+.text-card2 h3{
+    font-size: 30px;
     text-align: center;
+    margin-bottom: 10px;
+}
+.text-card3 h3{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.text-card1 p{
+    text-align: center;
+}
+.text-card2 p{
+    text-align: center;
+}
+.text-card3 p{
+    text-align: center;
+}
+
+.text-card1::before, .text-card1 > .card-border{
+    background: radial-gradient(400px circle at var(--mouse-x) var(--mouse-y), rgba(255, 255, 255, 0.02), transparent 40%);
+    /* background: radial-gradient(500px circle at var(--mouse-x) var(--mouse-y), rgb(205, 48, 48, 0.02), transparent 40%); */
+    border-radius: inherit;
+    content: "";
+    height: 100%;
+    left: 0px;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    z-index: 2;
+    opacity: 0;
+    transition: opacity 300ms;
+}
+.text-card1::before{
+    background: radial-gradient(400px circle at var(--mouse-x) var(--mouse-y), rgba(255, 255, 255, 0.02), transparent 40%);
+    /* background: radial-gradient(500px circle at var(--mouse-x) var(--mouse-y), rgb(205, 48, 48, 0.02), transparent 40%); */
+    z-index: 3;
+}
+.text-card1 > .card-border{
+    /* background: radial-gradient(250px circle at var(--mouse-x) var(--mouse-y), rgba(255, 255, 255, 0.3), transparent 40%); */
+    background: radial-gradient(400px circle at var(--mouse-x) var(--mouse-y), rgb(205, 48, 48), transparent 80%);
+    z-index: 1;
+}
+.text-card2::before, .text-card2 > .card-border{
+    background: radial-gradient(400px circle at var(--mouse-x) var(--mouse-y), rgba(255, 255, 255, 0.06), transparent 40%);
+    border-radius: inherit;
+    content: "";
+    height: 100%;
+    left: 0px;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    z-index: 2;
+    opacity: 0;
+    transition: opacity 300ms;
+}
+.text-card2::before{
+    background: radial-gradient(400px circle at var(--mouse-x) var(--mouse-y), rgba(255, 255, 255, 0.02), transparent 40%);
+    /* background: radial-gradient(500px circle at var(--mouse-x) var(--mouse-y), rgb(205, 48, 48, 0.02), transparent 40%); */
+    z-index: 3;
+}
+.text-card2 > .card-border{
+    /* background: radial-gradient(250px circle at var(--mouse-x) var(--mouse-y), rgba(255, 255, 255, 0.3), transparent 40%); */
+    background: radial-gradient(400px circle at var(--mouse-x) var(--mouse-y), rgb(15, 134, 94), transparent 80%);
+    z-index: 1;
+}
+.text-card3::before, .text-card3 > .card-border{
+    background: radial-gradient(400px circle at var(--mouse-x) var(--mouse-y), rgba(255, 255, 255, 0.06), transparent 40%);
+    border-radius: inherit;
+    content: "";
+    height: 100%;
+    left: 0px;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    z-index: 2;
+    opacity: 0;
+    transition: opacity 300ms;
+}
+.text-card3::before{
+    background: radial-gradient(400px circle at var(--mouse-x) var(--mouse-y), rgba(255, 255, 255, 0.02), transparent 40%);
+    /* background: radial-gradient(500px circle at var(--mouse-x) var(--mouse-y), rgb(205, 48, 48, 0.02), transparent 40%); */
+    z-index: 3;
+}
+.text-card3 > .card-border{
+    /* background: radial-gradient(250px circle at var(--mouse-x) var(--mouse-y), rgba(255, 255, 255, 0.3), transparent 40%); */
+    background: radial-gradient(400px circle at var(--mouse-x) var(--mouse-y), rgb(84, 128, 199), transparent 80%);
+    z-index: 1;
+}
+.text-card1:hover::before, .text-card1:hover > .card-border{
+    opacity: 1;
+}
+.text-card2:hover::before, .text-card2:hover > .card-border{
+    opacity: 1;
+}
+.text-card3:hover::before, .text-card3:hover > .card-border{
+    opacity: 1;
+}
+.text-card1 > .card-content{
+    background-color: var(--card-color);
+    border-radius: inherit;
+    margin: 1px;
+    height: calc(100% - 2px);
+    width: calc(100% - 2px);
+    position: relative;
+    z-index: 2;
+}
+.text-card2 > .card-content{
+    background-color: var(--card-color);
+    border-radius: inherit;
+    margin: 1px;
+    height: calc(100% - 2px);
+    width: calc(100% - 2px);
+    position: relative;
+    z-index: 2;
+}
+.text-card3 > .card-content{
+    background-color: var(--card-color);
+    border-radius: inherit;
+    margin: 1px;
+    height: calc(100% - 2px);
+    width: calc(100% - 2px);
+    position: relative;
+    z-index: 2;
 }
 .reveal{
     position: relative;
