@@ -42,3 +42,6 @@ document.getElementById("cards").onmousemove = e => {
         target.style.setProperty("--mouse-y", `${y}px`);
     }
 }
+function redirectToDesignPage() {
+    window.location.href = "design.html";
+}

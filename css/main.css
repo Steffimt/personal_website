@@ -5,6 +5,9 @@
     text-decoration: none;
     list-style: none;
 }
+html{
+    scroll-behavior: smooth;
+}
 :root{
     --index: calc(1vw + 1vh);
     --text: #FFF;
