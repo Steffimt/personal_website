@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    height: 100vh;
+    width: 100vh;
+    background-color: black;
+    margin: 0rem;
+    overflow: hidden;
+    font-family: roboto;
+}
+@font-face{
+    font-family: roboto;
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+@font-face{
+    font-family: robotoL;
+    src: url(../fonts/Roboto-Light.ttf);
+}
+.navbar{
+    position: absolute;
+    padding: 40px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 3;
+}
+.navbar a{
+    /* font-size: 1.1rem; */
+    color: #FFF;
+}
+.navbar .logo{
+    font-size: 2em;
+    font-weight: bold;
+    text-shadow: 0px 0px 6.24px #FFF, 0px 0px 12.48px #FFF, 0px 0px 43.68px #FFF, 0px 0px 87.36px #FFF, 0px 0px 149.76px #FFF, 0px 0px 262.08px #FFF;
+}
+.navbar .nav-links ul{
+    display: flex;
+}
+.navbar .nav-links ul li{
+    margin: 0 20px;
+}
+.navbar .nav-links ul li.active a{
+    color: #FFF;
+    text-shadow: 0px 0px 6.24px #FFF, 0px 0px 12.48px #FFF, 0px 0px 43.68px #FFF, 0px 0px 87.36px #FFF, 0px 0px 149.76px #FFF, 0px 0px 262.08px #FFF;
+}
+.navbar .nav-links ul li.active a{
+    color: #ffdc69;
+    text-shadow: 0px 0px 6.24px #ffdc69, 0px 0px 12.48px #ffdc69, 0px 0px 43.68px #ffdc69, 0px 0px 87.36px #ffdc69, 0px 0px 149.76px #9d822b, 0px 0px 262.08px #ffdc69;
+    font-weight: 400;
+}
+.navbar .nav-links ul li.next a{
+    color: #FFF;
+    text-shadow: 0px 0px 6.24px #FFF, 0px 0px 12.48px #FFF, 0px 0px 43.68px #FFF, 0px 0px 87.36px #FFF, 0px 0px 149.76px #FFF, 0px 0px 262.08px #FFF;
+}
+.navbar .menu-hamburger{
+    display: none;
+    position: absolute;
+    top: 55px;
+    right: 50px;
+    width: 35px;
+    cursor: pointer;
+}
+
+.menu{
+    width: 1rem;
+    height: 5px;
+    margin: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.menu span{
+    background: #FFF;
+    width: 2rem;
+    height: 3px;
+    border-radius: 5px;
+    display: block;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    transition: transform 0.5s, width 0.5s;
+}
+.menu .line-1{
+    transform: translate(-50%, -10px);
+}
+.menu .line-3{
+    transform: translate(-50%, 7px);
+}
+.openmenu .line-1{
+    transform: translate(-50%, -50%) rotate(-45deg);
+}
+.openmenu .line-3{
+    transform: translate(-50%, -50%) rotate(45deg);
+}
+.openmenu .line-2{
+    width: 0;
+}
+#image-track > .image{
+    width: 40vmin;
+    height: 60vmin;
+    object-fit: cover;
+    object-position: 100% center;
+}
+#image-track{
+    display: flex;
+    gap: 4vmin;
+    position: absolute;
+    left: 50%;
+    top: 55%;
+    transform: translate(0%, -50%);
+    user-select: none;
+}
