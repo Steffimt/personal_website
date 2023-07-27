@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Design</title>
-    <link rel="stylesheet" href="css/design.css">
-    <script src="js/carousel.js" defer></script>
+    <title>Projects</title>
+    <link rel="stylesheet" href="css/projects.css">
+    <script src="js/projects.js" defer></script>
 </head>
 <body>
     <nav class="navbar">
@@ -14,7 +14,7 @@
             <ul>
                 <li class="next"><a href="index.html">&lt;Main&gt;</a></li>
                 <li class="next"><a href="#">&lt;About&gt;</a></li>
-                <li class="active"><a href="projects.html">&lt;Projects&gt;</a></li>
+                <li class="active"><a href="">&lt;Projects&gt;</a></li>
                 <li class="next"><a href="#">&lt;Contact&gt;</a></li>
             </ul>
         </div>
@@ -27,22 +27,34 @@
             </div>
         </div> -->
     </nav>
-    <div class="title">
-        <p>Design</p>
-    </div>
-    <div id="image-track" data-mouse-down-at="0" data-prev-percentage="0">
-        <img class="image" src="img/himti.png" draggable="false">
-        <img class="image" src="img/travel.png" draggable="false">
-        <img class="image" src="img/cc.png" draggable="false">
-        <img class="image" src="img/poster-2.jpg" draggable="false">
-        <img class="image" src="img/chocs.png" draggable="false">
-        <img class="image" src="img/poster.png" draggable="false">
-        <img class="image" src="img/poster.jpg" draggable="false">
-        <img class="image" src="img/scene2.jpg" draggable="false">
-        <img class="image" src="img/scene3.jpg" draggable="false">
-        <img class="image" src="img/scene1.jpg" draggable="false">
-        <img class="image" src="img/scene5.jpg" draggable="false">
-    </div>
+    <section id="projects">
+        <div class="container reveal">
+            <h2>&lt;Projects&gt;</h2>
+            <div class="cards">
+                <div class="text-card1" onclick="redirectToFrontEndPage()">
+                    <div class="card-border"></div>
+                    <div class="card-content">
+                        <img class="pic1" src="img/code.png">
+                        <p>Front-End</p>
+                    </div>
+                </div>
+                <div class="text-card2" onclick="redirectToDesignPage()">
+                    <div class="card-border"></div>
+                    <div class="card-content">
+                        <img class="pic2" src="img/design.png">
+                        <p>Design</p>
+                    </div>
+                </div>
+                <div class="text-card3">
+                    <div class="card-border"></div>
+                    <div class="card-content">
+                        <img class="pic3" src="img/3d.png">
+                        <p>3D</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <div class="banner">
         <div class="clouds">
             <img src="img/cloud1.png" style="--i:1;">
