@@ -28,7 +28,7 @@ body::-webkit-scrollbar {
     src: url(../fonts/Roboto-Light.ttf);
 }
 .navbar{
-    position: absolute;
+    /* position: absolute; */
     padding: 40px 50px;
     display: flex;
     justify-content: space-between;
@@ -108,7 +108,7 @@ body::-webkit-scrollbar {
     width: 0;
 }
 .title{
-    margin-top: 5rem;
+    margin-top: 0rem;
     position: absolute;
     margin-bottom: 5rem;
     display: flex;
@@ -137,7 +137,7 @@ body::-webkit-scrollbar {
     gap: 4vmin;
     position: absolute;
     left: 50%;
-    top: 60%;
+    top: 70%;
     transform: translate(0%, -50%);
     user-select: none;
     margin-bottom: 10rem;
