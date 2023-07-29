@@ -142,10 +142,11 @@ section .cards{
 .text-card1{
     /* background-color: rgba(255,255,255, 0.1); */
     /* border: 0.1px solid rgba(255, 255, 255, 0.5); */
+    aspect-ratio: 1 / 1;
     border-radius: 15px;
     margin: 40px;
     padding: 3px;
-    height: 17rem;
+    /* height: 17rem; */
     width: 45%;
     box-shadow: 1px 1px 10px #cd3030;
     cursor: pointer;
@@ -181,10 +182,11 @@ section .cards{
     /* background-color: rgba(255,255,255, 0.02);
     border: 1px solid rgba(255, 255, 255, 0.1); */
     /* border: 0.1px solid rgba(255, 255, 255, 0.5); */
+    aspect-ratio: 1 / 1;
     border-radius: 15px;
     margin: 40px;
     padding: 3px;
-    height: 17rem;
+    /* height: 17rem; */
     width: 45%;
     box-shadow: 1px 1px 10px #0f865e;
     cursor: pointer;
@@ -194,10 +196,11 @@ section .cards{
     /* background-color: rgba(255,255,255, 0.02);
     border: 1px solid rgba(255, 255, 255, 0.1); */
     /* border: 0.1px solid rgba(255, 255, 255, 0.5); */
+    aspect-ratio: 1 / 1;
     border-radius: 15px;
     margin: 40px;
     padding: 3px;
-    height: 17rem;
+    /* height: 17rem; */
     width: 45%;
     box-shadow: 1px 1px 10px #5480c7;
     cursor: pointer;
