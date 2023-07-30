@@ -651,7 +651,7 @@ section .cards{
 } */
 .copy{
     position: absolute;
-    bottom: calc(var(--index) * 2.5);
+    bottom: calc(var(--index) * 1.5);
     /* opacity: .45; */
     padding: 1rem;
     width: 100%;
@@ -685,7 +685,7 @@ section .cards{
 
 
 
-/* @media screen and (max-width: 768px){
+@media screen and (max-width: 768px){
     .navbar{
         padding: 0;
     }
@@ -700,6 +700,7 @@ section .cards{
     .nav-links{
         top: 0;
         left: 0;
+        /* right: -100%; */
         position: absolute;
         background-color: rgba(250, 233, 177, 0.122);
         backdrop-filter: blur(5px);
@@ -712,6 +713,8 @@ section .cards{
         transition: all 0.5s ease;
     }
     .nav-links.mobile-menu{
+        /* right: 0; */
+        display: none;
         margin-right: 0;
     }
     .nav-links ul{
@@ -723,4 +726,4 @@ section .cards{
         margin: 25px 0;
         font-size: 1.8em;
     }
-} */
+}

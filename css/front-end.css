@@ -145,6 +145,8 @@ section{
     margin-bottom: 5rem;
 }
 .text-wrapper{
+    padding-top: 1rem;
+    width: 145%;
     opacity: 0;
     transition: opacity 0.5s ease-out;
 }
@@ -152,8 +154,9 @@ section{
     opacity: 1;
 }
 .text-wrapper h3{
+    font-size: 1.5rem;
     color: white;
-    margin-bottom: 1.8rem;
+    margin-bottom: 1rem;
 }
 .description{
     color: white;
@@ -162,6 +165,7 @@ section{
 .thumbnail{
     width: 200%;
     margin-left: 3rem;
+    /* padding-top: 0.5rem; */
     opacity: 0;
     transition: opacity 0.5s ease-out;
 }
@@ -171,6 +175,7 @@ section{
 .img-fluid{
     max-width: 100%;
     height: auto;
+    user-select: none;
 }
 
 .button-text{
@@ -208,12 +213,12 @@ section{
     border-style: solid;
     border-width: 2px;
     border-image: linear-gradient(44deg, #fad126, #fca243, #fd695f) 1;
-    color: white; /* Set the default text color to white */
+    color: white;
     cursor: pointer;
   }
   
   .btn::after {
-    background-image: linear-gradient(44deg, #fad126 0%, #fd695f 100%);
+    background-image: linear-gradient(44deg, #fad126 0%, #fca243 50%, #fd695f 100%);
     content: "";
     width: 0;
     height: 100%;
@@ -232,12 +237,12 @@ section{
 }
   /* For browsers that support background-clip: text */
   @supports (-webkit-background-clip: text) or (background-clip: text) {
-    /* .btn {
+    .btn {
       background-image: linear-gradient(44deg, #fad126, #fca243, #fd695f);
       -webkit-background-clip: text;
       background-clip: text;
       color: transparent; 
-    } */
+    }
     .btn a{
         background-image: linear-gradient(44deg, #fad126, #fca243, #fd695f);
         -webkit-background-clip: text;

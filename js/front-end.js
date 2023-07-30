@@ -61,3 +61,5 @@ window.addEventListener('load', revealElements);
 
 // Call the revealElements function when scrolling
 window.addEventListener('scroll', revealElements);
+
+
