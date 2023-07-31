@@ -18,18 +18,19 @@ ScrollSmoother.create({
 //     navLinks.classList.toggle('mobile-menu')
 // })
 
-// Get the mobile menu element and the hamburger menu button
-const mobileMenu = document.querySelector(".nav-links");
-const hamburgerMenuBtn = document.querySelector(".menu-hamburger");
 
-// Function to toggle the mobile menu
-function toggleMobileMenu() {
-  mobileMenu.classList.toggle("mobile-menu");
-}
 
-// Add a click event listener to the hamburger menu button
-hamburgerMenuBtn.addEventListener("click", toggleMobileMenu);
 
+
+
+const menuHamburger = document.querySelector('.menu-hamburger');
+const navLinks = document.querySelector('.nav-links');
+
+
+menuHamburger.addEventListener('click', () => {
+  
+  navLinks.classList.toggle('mobile-menu-active');
+});
 
 
 const handleOnMouseMove = e => {

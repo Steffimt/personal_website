@@ -703,19 +703,22 @@ section .cards{
         /* right: -100%; */
         position: absolute;
         background-color: rgba(250, 233, 177, 0.122);
-        backdrop-filter: blur(5px);
+        backdrop-filter: blur(3px);
         width: 100%;
         height: 100vh;
-        display: flex;
+        display: none;
         justify-content: center;
         align-items: center;
         margin-right: -100%;
-        transition: all 0.5s ease;
+        transition: all 1s ease;
     }
     .nav-links.mobile-menu{
         /* right: 0; */
-        display: none;
+        /* display: none; */
         margin-right: 0;
+    }
+    .nav-links.mobile-menu-active{
+        display: flex;
     }
     .nav-links ul{
         display: flex;
@@ -725,5 +728,11 @@ section .cards{
     .navbar .nav-links ul li{
         margin: 25px 0;
         font-size: 1.8em;
+    }
+    .navbar .nav-links ul li.next a{
+        text-shadow: 0px 0px 6.24px #FFF, 0px 0px 12.48px #FFF;
+    }
+    .navbar .nav-links ul li.active a{
+        text-shadow: 0px 0px 6.24px #ffdc69, 0px 0px 12.48px #ffdc69;
     }
 }
