@@ -552,7 +552,7 @@ section .cards{
     opacity: 1;
 }
 .main-article-content .biography{
-    margin: 17rem 5rem 0rem 18rem;
+    margin: 18rem 5rem 0rem 18rem;
 }
 .sub-text{
     display: flex;
@@ -601,21 +601,21 @@ section .cards{
 }
 
 .main-article-content .biography2{
-    margin: 33.3rem 15rem 0 18.3rem;
+    margin: 33.3rem 10rem 0 18.3rem;
 }
 .biography2 h3{
     font-size: 3rem;
 }
 
 .main-article-content .biography3{
-    margin: 28.7rem 15rem 0 18.3rem;
+    margin: 28.7rem 10rem 0 18.3rem;
 }
 .biography3 h3{
     font-size: 3rem;
 }
 
 .main-article-content .biography4{
-    margin: 28.7rem 15rem 0 18.3rem;
+    margin: 28.7rem 10rem 0 18.3rem;
 }
 .biography4 h3{
     font-size: 3rem;
@@ -1790,5 +1790,22 @@ section .cards{
     }
     .text-card1 p{
         font-size: 1.5rem;
+    }
+}
+@media (min-width: 999px) and (max-width: 1044px){
+    .main-article-content .biography {
+        margin: 16rem 5rem 0rem 18rem;
+    }
+    .main-article-content .biography2 {
+        margin: 33.3rem 6rem 0 18.3rem;
+    }
+    .main-article-content .biography3 {
+        margin: 26.5rem 6rem 0 18.3rem;
+    }
+    .main-article-content .biography4 {
+        margin: 28.7rem 6rem 0 18.3rem;
+    }
+    section{
+        min-height: 46rem;
     }
 }
