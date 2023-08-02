@@ -62,4 +62,11 @@ window.addEventListener('load', revealElements);
 // Call the revealElements function when scrolling
 window.addEventListener('scroll', revealElements);
 
+// const menuHamburger = document.querySelector('.menu-hamburger');
+// const navLinks = document.querySelector('.nav-links');
 
+
+// menuHamburger.addEventListener('click', () => {
+  
+//   navLinks.classList.toggle('mobile-menu-active');
+// });

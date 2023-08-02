@@ -36,7 +36,7 @@ body::-webkit-scrollbar {
     src: url(../fonts/Roboto-Light.ttf);
 }
 .navbar{
-    position: absolute;
+    position: fixed;
     top: 0;
     padding: 40px 50px;
     display: flex;
@@ -466,6 +466,7 @@ section .cards{
     }
     .text-card1{
         width: 100%;
+        z-index: 1;
     }
     .pic1{
         padding: 1.1rem 5px;
@@ -475,6 +476,7 @@ section .cards{
     }
     .text-card2{
         width: 100%;
+        z-index: 1;
     }
     .pic2{
         padding: 0rem 5px;
@@ -485,6 +487,7 @@ section .cards{
     }
     .text-card3{
         width: 100%;
+        z-index: 1;
     }
     .text-card3 p {
         font-size: 1.5rem;
@@ -567,6 +570,7 @@ section .cards{
     }
     .text-card1{
         width: 100%;
+        z-index: 1;
     }
     .pic1{
         padding: 1.1rem 5px;
@@ -576,6 +580,7 @@ section .cards{
     }
     .text-card2{
         width: 100%;
+        z-index: 1;
     }
     .pic2{
         padding: 0rem 5px;
@@ -586,6 +591,7 @@ section .cards{
     }
     .text-card3{
         width: 100%;
+        z-index: 1;
     }
     .text-card3 p {
         font-size: 1.5rem;
@@ -669,6 +675,7 @@ section .cards{
     }
     .text-card1{
         width: 100%;
+        z-index: 1;
     }
     .pic1{
         padding: 1.1rem 5px;
@@ -678,6 +685,7 @@ section .cards{
     }
     .text-card2{
         width: 100%;
+        z-index: 1;
     }
     .pic2{
         padding: 0rem 5px;
@@ -688,6 +696,7 @@ section .cards{
     }
     .text-card3{
         width: 100%;
+        z-index: 1;
     }
     .text-card3 p {
         font-size: 1.5rem;
@@ -771,6 +780,7 @@ section .cards{
     }
     .text-card1{
         width: 100%;
+        z-index: 1;
     }
     .pic1{
         padding: 1.1rem 5px;
@@ -780,6 +790,7 @@ section .cards{
     }
     .text-card2{
         width: 100%;
+        z-index: 1;
     }
     .pic2{
         padding: 0rem 5px;
@@ -790,6 +801,7 @@ section .cards{
     }
     .text-card3{
         width: 100%;
+        z-index: 1;
     }
     .text-card3 p {
         font-size: 2rem;
@@ -873,6 +885,7 @@ section .cards{
     }
     .text-card1{
         width: 100%;
+        z-index: 1;
     }
     .pic1{
         padding: 1.1rem 5px;
@@ -882,6 +895,7 @@ section .cards{
     }
     .text-card2{
         width: 100%;
+        z-index: 1;
     }
     .pic2{
         padding: 0rem 5px;
@@ -892,6 +906,7 @@ section .cards{
     }
     .text-card3{
         width: 100%;
+        z-index: 1;
     }
     .text-card3 p {
         font-size: 2rem;
@@ -975,6 +990,7 @@ section .cards{
     }
     .text-card1{
         width: 100%;
+        z-index: 1;
     }
     .pic1{
         padding: 1.1rem 5px;
@@ -984,6 +1000,7 @@ section .cards{
     }
     .text-card2{
         width: 100%;
+        z-index: 1;
     }
     .pic2{
         padding: 0rem 5px;
@@ -994,6 +1011,7 @@ section .cards{
     }
     .text-card3{
         width: 100%;
+        z-index: 1;
     }
     .text-card3 p {
         font-size: 2rem;
@@ -1013,6 +1031,9 @@ section .cards{
     }
 }
 @media (min-width: 601px) and (max-width: 768px){
+    .navbar{
+        position: absolute;
+    }
     section .container {
         margin: 10rem 11rem 100px 11rem;
     }
@@ -1063,6 +1084,9 @@ section .cards{
 }
 
 @media(min-width: 769px) and (max-width: 900px){
+    .navbar{
+        position: absolute;
+    }
     section{
         min-height: 37rem;
     }
@@ -1117,8 +1141,11 @@ section .cards{
     }
 }
 @media (min-width: 901px) and (max-width: 998px) {
+    .navbar{
+        position: absolute;
+    }
     section{
-        min-height: 47rem;
+        min-height: 27rem;
     }
     section .container {
         margin: 10rem 5rem 100px 5rem;
@@ -1160,11 +1187,11 @@ section .cards{
         padding-top: 3px;
     }
     .banner .clouds{
-        bottom: 0rem;
+        bottom: -12rem;
     }
     .copy{
         padding: 0.5rem;
-        bottom: 0rem;
+        bottom: -11rem;
     }
     .resize {
         margin: 1.2rem 2.5rem;
