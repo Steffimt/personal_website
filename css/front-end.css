@@ -6,10 +6,10 @@
     list-style: none;
 }
 body{
-    background: linear-gradient(180deg, #010101 97%, rgba(255, 255, 255, 0.00) 99.99%);
+    /* background: linear-gradient(180deg, #010101 97%, rgba(255, 255, 255, 0.00) 99.99%); */
     height: 100%;
     width: 100%;
-    /* background-color: #010101; */
+    background-color: #010101;
     margin: 0rem;
     /* overflow: hidden; */
     overflow-x: hidden;
@@ -135,7 +135,7 @@ body::-webkit-scrollbar {
     text-align: center;
 }
 section{
-    padding: 5rem 0 16rem 0;
+    padding: 5rem 0 27.5rem 0;
 }
 .container{
     margin-left: 60px;
@@ -158,7 +158,7 @@ section{
     opacity: 1;
 }
 .text-wrapper h3{
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: white;
     margin-bottom: 1rem;
 }
@@ -281,10 +281,10 @@ section{
     position: absolute;
     /* margin-top: 5rem; */
     /* top: 0; */
-    bottom: -118rem;
+    bottom: -130rem;
     left: 0;
     width: 100%;
-    height: 65%;
+    height: 100%;
     overflow: hidden;
     pointer-events: none;
 }
@@ -312,7 +312,7 @@ section{
 } */
 .copy{
     position: absolute;
-    bottom: -118rem;
+    bottom: -129rem;
     /* opacity: .45; */
     padding: 1rem;
     width: 100%;
@@ -517,10 +517,10 @@ section{
     }
     .banner .clouds{
         height: 26%;
-        bottom: -130.5rem;
+        bottom: -135.9rem;
     }
     .copy{
-        bottom: -130.5rem;
+        bottom: -135.9rem;
     }
     .resize {
         width: 1.5rem;
@@ -720,11 +720,11 @@ section{
         padding-top: 30px;
     }
     .banner .clouds{
-        height: 26%;
-        bottom: -145.5rem;
+        height: 40%;
+        bottom: -150.9rem;
     }
     .copy{
-        bottom: -145.5rem;
+        bottom: -150.9rem;
     }
     .resize {
         width: 1.8rem;
@@ -822,11 +822,11 @@ section{
         padding-top: 30px;
     }
     .banner .clouds{
-        height: 26%;
-        bottom: -150.5rem;
+        height: 40%;
+        bottom: -155.9rem;
     }
     .copy{
-        bottom: -150.5rem;
+        bottom: -155.9rem;
     }
     .resize {
         width: 1.8rem;
@@ -924,11 +924,11 @@ section{
         padding-top: 30px;
     }
     .banner .clouds{
-        height: 32%;
-        bottom: -150.5rem;
+        height: 40%;
+        bottom: -155.9rem;
     }
     .copy{
-        bottom: -150.5rem;
+        bottom: -155.9rem;
     }
     .resize {
         width: 1.8rem;
@@ -973,10 +973,10 @@ section{
     }
     .banner .clouds{
         height: 45%;
-        bottom: -179.9rem;
+        bottom: -185rem;
     }
     .copy{
-        bottom: -179.9rem;
+        bottom: -185rem;
     }
     .resize {
         width: 1.8rem;
@@ -1021,10 +1021,10 @@ section{
     }
     .banner .clouds{
         height: 50%;
-        bottom: -195.9rem;
+        bottom: -198.9rem;
     }
     .copy{
-        bottom: -195.9rem;
+        bottom: -198.9rem;
     }
     .resize {
         width: 1.8rem;
@@ -1044,7 +1044,7 @@ section{
         padding: 0 125px;
         margin-left: 0;
         margin-right: 0;
-        height: 215rem;
+        height: 222rem;
     }
     .row{
         flex-wrap: wrap;
@@ -1069,15 +1069,35 @@ section{
     }
     .banner .clouds{
         height: 50%;
-        bottom: -202.9rem;
+        bottom: -212.9rem;
     }
     .copy{
-        bottom: -202.9rem;
+        bottom: -212.5rem;
     }
     .resize {
         width: 1.8rem;
         height: 1.8rem;
         margin: 1.2rem 2.5rem;
         opacity: 1;
+    }
+}
+@media(min-width: 999px) and (max-width: 1044px){
+    .container{
+        padding: 0 125px;
+        margin-left: 0;
+        margin-right: 0;
+        height: 105rem;
+    }
+    .banner .clouds {
+        height: 100%;
+        bottom: -115.5rem;
+    }
+    .copy{
+        bottom: -115.5rem;
+    }
+}
+@media(min-width: 1055px) and (max-width: 1400px){
+    body{
+        background: #010101;
     }
 }
