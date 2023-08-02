@@ -34,7 +34,7 @@ html{
 }
 body{
     /* background-color: #010101; */
-    background: linear-gradient(180deg, #010101 96.39%, rgba(255, 255, 255, 0.00) 99.99%);
+    background: linear-gradient(180deg, #010101 97.39%, rgba(255, 255, 255, 0.00) 99.99%);
     color: #fff;
     /* font-family: raleway_f, sans-serif; */
     font-family: roboto;
@@ -413,7 +413,7 @@ section .cards{
     -webkit-background-clip: text; /* For Safari/WebKit browsers */
     color: transparent;
     font-size: 2rem;
-    /* padding-top: 1.7rem; */
+    /* padding-top: 0.3rem; */
     text-align: center;
 }
 .text-card2 p{
@@ -791,6 +791,9 @@ section .cards{
     section h2{
         font-size: 2rem;
     }
+    section .cards{
+        flex-direction: column;
+    }
     .text-card1{
         width: 100%;
     }
@@ -945,6 +948,9 @@ section .cards{
     section .container {
         margin: 13rem 4rem 100px 4rem;
     }
+    section .cards{
+        flex-direction: column;
+    }
     section h2{
         font-size: 2rem;
     }
@@ -1098,6 +1104,9 @@ section .cards{
     }
     section .container {
         margin: 13rem 5rem 100px 5rem;
+    }
+    section .cards{
+        flex-direction: column;
     }
     section h2{
         font-size: 2rem;
@@ -1660,7 +1669,7 @@ section .cards{
         display: flex;
     }
     section .container {
-        margin: 13rem 8rem 100px 8rem;
+        margin: 13rem 11rem 100px 11rem;
     }
     section .cards{
         flex-direction: column;
@@ -1740,7 +1749,7 @@ section .cards{
         font-size: 1.3rem;
     }
     section{
-        min-height: 45rem;
+        min-height: 49rem;
     }
     section .container {
         margin: 17rem 50px 100px 50px;
@@ -1786,9 +1795,23 @@ section .cards{
         min-height: 48rem;
     }
     .pic1{
-        padding: 1rem 5px;
+        padding: 1.5rem 5px 0 5px;
     }
     .text-card1 p{
+        font-size: 1.5rem;
+        padding-top: 1.2rem;
+    }
+    .pic2{
+        padding: 1rem 5px 0 5px;
+    }
+    .text-card2 p{
+        font-size: 1.5rem;
+        padding-top: 0.7rem;
+    }
+    .pic3{
+        padding: 1.2rem 5px 0rem 5px;
+    }
+    .text-card3 p{
         font-size: 1.5rem;
     }
 }
@@ -1807,5 +1830,8 @@ section .cards{
     }
     section{
         min-height: 46rem;
+    }
+    .pic1{
+        padding: 1.5rem 5px 1.3rem 5px;
     }
 }
