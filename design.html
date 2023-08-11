@@ -6,6 +6,7 @@
     <title>Design</title>
     <link rel="stylesheet" href="css/design.css">
     <script src="js/carousel.js" defer></script>
+
 </head>
 <body>
     <nav class="navbar">
@@ -31,8 +32,8 @@
         <p>Design</p>
     </div>
     <div id="image-track" data-mouse-down-at="0" data-prev-percentage="0">
-        <img class="image" src="img/himti.png" draggable="false">
-        <img class="image" src="img/travel.png" draggable="false">
+        <img class="image" src="img/himti.png" draggable="false" onclick="togglePopup('popup-1')">
+        <img class="image" src="img/travel.png" draggable="false" onclick="togglePopup('popup-2')">
         <img class="image" src="img/cc.png" draggable="false">
         <img class="image" src="img/poster-2.jpg" draggable="false">
         <img class="image" src="img/chocs.png" draggable="false">
@@ -43,6 +44,46 @@
         <img class="image" src="img/scene1.jpg" draggable="false">
         <img class="image" src="img/scene5.jpg" draggable="false">
     </div>
+    <div class="popup" id="popup-1" data-popup-id="popup-1">
+        <div class="overlay"></div>
+        <div class="content" data-hide-scrollbars>
+            <div class="inner-content">
+                <div class="close-btn" onclick="togglePopup('popup-1')">&times;</div>
+                <h1>HIMTI Internship</h1>
+                <img class="pic" src="img/himti.png">
+                <div class="flexbox">
+                    <p>This website serves as a virtual platform for the internship program, providing information about the organization's divisions structure, FAQs, and registration details. (Team Project)<br><br>Made using: Figma</p>
+                    <a class="btn" href="https://www.figma.com/file/KYX9ZJKP46lJGVc5SpvIYf/HIMTI-INTERNSHIP?type=design&mode=design&t=4bjeAfaXQdUWja2o-1" target="_blank">See Details</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="popup" id="popup-2" data-popup-id="popup-2">
+        <div class="overlay"></div>
+        <div class="content" data-hide-scrollbars>
+            <div class="inner-content">
+                <div class="close-btn" onclick="togglePopup('popup-2')">&times;</div>
+                <h1>Toba Trip</h1>
+                <img class="pic" src="img/travel.png">
+                <div class="flexbox">
+                    <p>This project aims to develop a digital tourism application that provides information about Lake Toba, including tourist attractions nearby, various activities that can be done 
+                        during your visit, a list of places to stay along with tour packages offers with price ranges.<br><br>Made using: Figma</p>
+                    <a class="btn" href="https://www.figma.com/file/6FqZd2qdH1hYgw3JVi27YN/Toba-Trip?type=design&node-id=0%3A1&mode=design&t=4bjeAfaXQdUWja2o-1" target="_blank">See Details</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        function togglePopup(popupId){
+            var popup = document.getElementById(popupId);
+            popup.classList.toggle("active");
+    
+            var content = popup.querySelector(".content");
+            content.toggleAttribute("data-hide-scrollbars");
+        }
+    </script>
+
     <div class="banner">
         <div class="clouds">
             <img src="img/cloud1.png" style="--i:1;">
