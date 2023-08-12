@@ -6,7 +6,7 @@
     list-style: none;
 }
 body{
-    height: 156vh;
+    height: 168vh;
     width: 100%;
     background-color: black;
     margin: 0rem;
@@ -123,7 +123,7 @@ body::-webkit-scrollbar {
     -webkit-background-clip: text; /* For Safari/WebKit browsers */
     color: transparent;
     font-size: 2.5rem;
-    padding-top: 0.5rem;
+    /* padding-top: 0.5rem; */
     text-align: center;
 }
 #image-track > .image{
@@ -169,7 +169,7 @@ img.pic{
     top: 0px;
     left: 0px;
     width: 120vw;
-    height: 180vh;
+    height: 196vh;
     background: rgba(0, 0, 0, 0.7);
     z-index: 2;
     display: none;
@@ -186,7 +186,7 @@ img.pic{
     height: 280px; */
     width: 800px;
     height: 550px;
-    max-height: 80vh; /* Set a maximum height for the content */
+    max-height: 87vh; /* Set a maximum height for the content */
     /* border-top-left-radius: 5px; */
     /* border-top-right-radius: 5px; */
     border-radius: 5px;
@@ -194,7 +194,7 @@ img.pic{
     scrollbar-width: none;
     z-index: 2;
     text-align: center;
-    padding: 20px;
+    padding: 20px 20px 30px 20px;
     box-sizing: border-box;
   }
   .popup .content::-webkit-scrollbar {
@@ -238,13 +238,13 @@ img.pic{
   .flexbox{
     margin: 5px 35px;
     display: flex;
-    gap: 15px;
+    gap: 19px;
     /* justify-content: space-between; */
   }
   .btn {
     position: relative;
     z-index: 1;
-    padding: 0.8rem 1.6rem;
+    padding: 0.8rem 1.5rem;
     margin: 6px 0;
     font-weight: 700;
     line-height: 1;
@@ -297,7 +297,7 @@ img.pic{
 .banner .clouds{
     position: absolute;
     margin-top: 5rem;
-    bottom: -30.5rem;
+    bottom: -26rem;
     left: 0;
     width: 100%;
     height: 100%;
@@ -321,7 +321,7 @@ img.pic{
 }
 .copy{
     position: absolute;
-    bottom: -28rem;
+    bottom: -26rem;
     /* opacity: .45; */
     padding: 1rem;
     width: 100%;
@@ -341,5 +341,712 @@ img.pic{
 }
 
 @media (min-width: 0px) and (max-width: 320px){
-    
+    body{
+        height: 126.5vh;
+        width: 100%;
+        overflow-x: hidden;
+    }
+    .navbar{
+        padding: 0;
+    }
+    .navbar .logo{
+        position: absolute;
+        top: 48px;
+        left: 40px;
+        /* z-index: 6; */
+    }
+    .navbar .menu-hamburger{
+        width: 26px;
+        right: 40px;
+        display: block;
+        z-index: 6;
+    }
+    .nav-links{
+        top: 0;
+        left: 0;
+        /* right: -100%; */
+        position: absolute;
+        background-color: rgba(250, 233, 177, 0.122);
+        backdrop-filter: blur(5px);
+        width: 100%;
+        height: 100vh;
+        display: none;
+        justify-content: center;
+        align-items: center;
+        margin-right: -100%;
+        transition: all 1s ease;
+        z-index: 5;
+    }
+    .nav-links.mobile-menu{
+        /* right: 0; */
+        /* display: none; */
+        margin-right: 0;
+    }
+    .nav-links.mobile-menu-active{
+        display: flex;
+    }
+    .nav-links ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .navbar .nav-links ul li{
+        margin: 20px 0;
+        font-size: 1.5em;
+    }
+    .navbar .nav-links ul li.next a{
+        text-shadow: 0px 0px 6.24px #FFF, 0px 0px 12.48px #FFF;
+    }
+    .navbar .nav-links ul li.active a{
+        text-shadow: 0px 0px 6.24px #ffdc69, 0px 0px 12.48px #ffdc69;
+    }
+    .title{
+        margin-top: 9rem;
+    }
+    #image-track{
+        left: 32%;
+        top: 70%;
+    }
+    .popup .content{
+        width: 300px;
+        height: 330px;
+        max-height: 55vh;
+        padding: 15px;
+    }
+    .popup .overlay{
+        height: 112vh;
+        transform: translate(-50%, -59%);
+    }
+    .popup .close-btn{
+        width: 25px;
+        height: 25px;
+        font-size: 20px;
+        line-height: 25px;
+    }
+    h1{
+        font-size: 1.5rem;
+    }
+    img.pic{
+        margin: 5px 0 10px 0;
+    }
+    .flexbox{
+        margin: 0px 15px;
+        gap: 10px;
+    }
+    p{
+        font-size: 0.5rem;
+        max-width: 9rem;
+    }
+    .btn{
+        padding: 0.5rem 0.5rem;
+        font-size: 0.7rem;
+        margin: 3px 0;
+    }
+    .banner .clouds{
+        bottom: -10rem;
+    }
+    .copy{
+        bottom: -10rem;
+    }
+    .resize {
+        width: 1.5rem;
+        height: 1.5rem;
+        margin: 1rem 1.2rem;
+        opacity: 1;
+    }
+}
+
+@media(min-width: 321px) and (max-width: 376px){
+    body{
+        height: 126vh;
+    }
+    .navbar{
+        padding: 0;
+    }
+    .navbar .logo{
+        position: absolute;
+        top: 48px;
+        left: 40px;
+        /* z-index: 6; */
+    }
+    .navbar .menu-hamburger{
+        width: 26px;
+        right: 40px;
+        display: block;
+        z-index: 6;
+    }
+    .nav-links{
+        top: 0;
+        left: 0;
+        /* right: -100%; */
+        position: absolute;
+        background-color: rgba(250, 233, 177, 0.122);
+        backdrop-filter: blur(5px);
+        width: 100%;
+        height: 100vh;
+        display: none;
+        justify-content: center;
+        align-items: center;
+        margin-right: -100%;
+        transition: all 1s ease;
+        z-index: 5;
+    }
+    .nav-links.mobile-menu{
+        /* right: 0; */
+        /* display: none; */
+        margin-right: 0;
+    }
+    .nav-links.mobile-menu-active{
+        display: flex;
+    }
+    .nav-links ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .navbar .nav-links ul li{
+        margin: 20px 0;
+        font-size: 1.5em;
+    }
+    .navbar .nav-links ul li.next a{
+        text-shadow: 0px 0px 6.24px #FFF, 0px 0px 12.48px #FFF;
+    }
+    .navbar .nav-links ul li.active a{
+        text-shadow: 0px 0px 6.24px #ffdc69, 0px 0px 12.48px #ffdc69;
+    }
+    .title{
+        margin-top: 9rem;
+    }
+    #image-track{
+        left: 33%;
+        top: 70%;
+    }
+    .popup .content{
+        width: 300px;
+        height: 360px;
+        max-height: 60vh;
+        padding: 15px;
+    }
+    .popup .overlay{
+        height: 138vh;
+        transform: translate(-50%, -59%);
+    }
+    .popup .close-btn{
+        width: 25px;
+        height: 25px;
+        font-size: 20px;
+        line-height: 25px;
+    }
+    h1{
+        font-size: 1.5rem;
+    }
+    img.pic{
+        margin: 5px 0 10px 0;
+    }
+    .flexbox{
+        margin: 0px 15px;
+        gap: 10px;
+    }
+    p{
+        font-size: 0.6rem;
+        max-width: 9rem;
+    }
+    .btn{
+        padding: 0.5rem 0.5rem;
+        font-size: 0.7rem;
+        margin: 3px 0;
+    }
+    .banner .clouds{
+        bottom: -10rem;
+    }
+    .copy{
+        bottom: -10rem;
+    }
+    .resize {
+        width: 1.5rem;
+        height: 1.5rem;
+        margin: 1rem 1.2rem;
+        opacity: 1;
+    }
+}
+
+@media (min-width: 376px) and (max-width: 425px){
+    body{
+        height: 116vh;
+    }
+    .navbar{
+        padding: 0;
+    }
+    .navbar .logo{
+        position: absolute;
+        top: 48px;
+        left: 40px;
+        /* z-index: 6; */
+    }
+    .navbar .menu-hamburger{
+        width: 26px;
+        right: 40px;
+        display: block;
+        z-index: 6;
+    }
+    .nav-links{
+        top: 0;
+        left: 0;
+        /* right: -100%; */
+        position: absolute;
+        background-color: rgba(250, 233, 177, 0.122);
+        backdrop-filter: blur(5px);
+        width: 100%;
+        height: 100vh;
+        display: none;
+        justify-content: center;
+        align-items: center;
+        margin-right: -100%;
+        transition: all 1s ease;
+        z-index: 5;
+    }
+    .nav-links.mobile-menu{
+        /* right: 0; */
+        /* display: none; */
+        margin-right: 0;
+    }
+    .nav-links.mobile-menu-active{
+        display: flex;
+    }
+    .nav-links ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .navbar .nav-links ul li{
+        margin: 20px 0;
+        font-size: 1.5em;
+    }
+    .navbar .nav-links ul li.next a{
+        text-shadow: 0px 0px 6.24px #FFF, 0px 0px 12.48px #FFF;
+    }
+    .navbar .nav-links ul li.active a{
+        text-shadow: 0px 0px 6.24px #ffdc69, 0px 0px 12.48px #ffdc69;
+    }
+    .title{
+        margin-top: 9rem;
+    }
+    #image-track{
+        left: 35%;
+        top: 70%;
+    }
+    .popup .content{
+        width: 325px;
+        height: 380px;
+        max-height: 65vh;
+        padding: 15px;
+    }
+    .popup .overlay{
+        height: 138vh;
+        transform: translate(-50%, -59%);
+    }
+    .popup .close-btn{
+        width: 25px;
+        height: 25px;
+        font-size: 20px;
+        line-height: 25px;
+    }
+    h1{
+        font-size: 1.5rem;
+    }
+    img.pic{
+        margin: 5px 0 10px 0;
+    }
+    .flexbox{
+        margin: 0px 15px;
+        gap: 10px;
+    }
+    p{
+        font-size: 0.6rem;
+        max-width: 10.5rem;
+    }
+    .btn{
+        padding: 0.5rem 0.5rem;
+        font-size: 0.7rem;
+        margin: 3px 0;
+    }
+    .banner .clouds{
+        bottom: -10rem;
+    }
+    .copy{
+        bottom: -10rem;
+    }
+    .resize {
+        width: 1.5rem;
+        height: 1.5rem;
+        margin: 1rem 1.2rem;
+        opacity: 1;
+    }
+}
+
+@media(min-width: 425px) and (max-width: 475px){
+    body{
+        height: 127vh;
+    }
+    .navbar{
+        padding: 0;
+    }
+    .navbar .logo{
+        position: absolute;
+        top: 48px;
+        left: 40px;
+        /* z-index: 6; */
+    }
+    .navbar .menu-hamburger{
+        width: 26px;
+        right: 40px;
+        display: block;
+        z-index: 6;
+    }
+    .nav-links{
+        top: 0;
+        left: 0;
+        /* right: -100%; */
+        position: absolute;
+        background-color: rgba(250, 233, 177, 0.122);
+        backdrop-filter: blur(5px);
+        width: 100%;
+        height: 100vh;
+        display: none;
+        justify-content: center;
+        align-items: center;
+        margin-right: -100%;
+        transition: all 1s ease;
+        z-index: 5;
+    }
+    .nav-links.mobile-menu{
+        /* right: 0; */
+        /* display: none; */
+        margin-right: 0;
+    }
+    .nav-links.mobile-menu-active{
+        display: flex;
+    }
+    .nav-links ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .navbar .nav-links ul li{
+        margin: 20px 0;
+        font-size: 1.5em;
+    }
+    .navbar .nav-links ul li.next a{
+        text-shadow: 0px 0px 6.24px #FFF, 0px 0px 12.48px #FFF;
+    }
+    .navbar .nav-links ul li.active a{
+        text-shadow: 0px 0px 6.24px #ffdc69, 0px 0px 12.48px #ffdc69;
+    }
+    .title{
+        margin-top: 9rem;
+    }
+    #image-track{
+        left: 35%;
+        top: 70%;
+    }
+    .popup .content{
+        width: 360px;
+        height: 380px;
+        max-height: 55vh;
+        padding: 15px;
+    }
+    .popup .overlay{
+        height: 138vh;
+        transform: translate(-50%, -59%);
+    }
+    h1{
+        font-size: 1.5rem;
+    }
+    img.pic{
+        margin: 5px 0 10px 0;
+    }
+    .flexbox{
+        margin: 0px 15px;
+        gap: 13px;
+    }
+    p{
+        font-size: 0.6rem;
+        max-width: 12.5rem;
+    }
+    .btn{
+        padding: 0.5rem 0.5rem;
+        font-size: 0.7rem;
+        margin: 3px 0;
+    }
+    .banner .clouds{
+        bottom: -10rem;
+    }
+    .copy{
+        bottom: -10rem;
+    }
+    .resize {
+        width: 1.8rem;
+        height: 1.8rem;
+        margin: 1rem 1.5rem;
+        opacity: 1;
+    }
+}
+
+@media (min-width: 475px) and (max-width: 530px){
+    body{
+        height: 139vh;
+    }
+    .navbar{
+        padding: 0;
+    }
+    .navbar .logo{
+        position: absolute;
+        top: 48px;
+        left: 40px;
+        /* z-index: 6; */
+    }
+    .navbar .menu-hamburger{
+        width: 26px;
+        right: 40px;
+        display: block;
+        z-index: 6;
+    }
+    .nav-links{
+        top: 0;
+        left: 0;
+        /* right: -100%; */
+        position: absolute;
+        background-color: rgba(250, 233, 177, 0.122);
+        backdrop-filter: blur(5px);
+        width: 100%;
+        height: 100vh;
+        display: none;
+        justify-content: center;
+        align-items: center;
+        margin-right: -100%;
+        transition: all 1s ease;
+        z-index: 5;
+    }
+    .nav-links.mobile-menu{
+        /* right: 0; */
+        /* display: none; */
+        margin-right: 0;
+    }
+    .nav-links.mobile-menu-active{
+        display: flex;
+    }
+    .nav-links ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .navbar .nav-links ul li{
+        margin: 20px 0;
+        font-size: 1.5em;
+    }
+    .navbar .nav-links ul li.next a{
+        text-shadow: 0px 0px 6.24px #FFF, 0px 0px 12.48px #FFF;
+    }
+    .navbar .nav-links ul li.active a{
+        text-shadow: 0px 0px 6.24px #ffdc69, 0px 0px 12.48px #ffdc69;
+    }
+    .title{
+        margin-top: 9rem;
+    }
+    #image-track{
+        left: 39%;
+        top: 70%;
+    }
+    .popup .content {
+        width: 450px;
+        height: 400px;
+        max-height: 70vh;
+    }
+    .popup .overlay{
+        height: 171vh;
+        transform: translate(-50%, -59%);
+    }
+    h1{
+        font-size: 1.8rem;
+    }
+    img.pic{
+        margin: 5px 0 10px 0;
+    }
+    .flexbox{
+        margin: 0px 20px;
+        gap: 18px;
+    }
+    p{
+        font-size: 0.8rem;
+        max-width: 15.5rem;
+    }
+    .btn{
+        padding: 0.5rem 0.8rem;
+        font-size: 0.8rem;
+        margin: 5px 0;
+    }
+    .banner .clouds{
+        bottom: -15rem;
+    }
+    .copy{
+        bottom: -15rem;
+    }
+    .resize {
+        width: 1.8rem;
+        height: 1.8rem;
+        margin: 1rem 1.5rem;
+        opacity: 1;
+    }
+}
+
+@media (min-width: 531px) and (max-width: 600px){
+    body{
+        height: 139.5vh;
+    }
+    .navbar{
+        padding: 0;
+    }
+    .navbar .logo{
+        position: absolute;
+        top: 48px;
+        left: 40px;
+        /* z-index: 6; */
+    }
+    .navbar .menu-hamburger{
+        width: 26px;
+        right: 40px;
+        display: block;
+        z-index: 6;
+    }
+    .nav-links{
+        top: 0;
+        left: 0;
+        /* right: -100%; */
+        position: absolute;
+        background-color: rgba(250, 233, 177, 0.122);
+        backdrop-filter: blur(5px);
+        width: 100%;
+        height: 100vh;
+        display: none;
+        justify-content: center;
+        align-items: center;
+        margin-right: -100%;
+        transition: all 1s ease;
+        z-index: 5;
+    }
+    .nav-links.mobile-menu{
+        /* right: 0; */
+        /* display: none; */
+        margin-right: 0;
+    }
+    .nav-links.mobile-menu-active{
+        display: flex;
+    }
+    .nav-links ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .navbar .nav-links ul li{
+        margin: 20px 0;
+        font-size: 1.5em;
+    }
+    .navbar .nav-links ul li.next a{
+        text-shadow: 0px 0px 6.24px #FFF, 0px 0px 12.48px #FFF;
+    }
+    .navbar .nav-links ul li.active a{
+        text-shadow: 0px 0px 6.24px #ffdc69, 0px 0px 12.48px #ffdc69;
+    }
+    .title{
+        margin-top: 7.4rem;
+    }
+    #image-track{
+        left: 40%;
+        top: 70%;
+    }
+    .popup .content {
+        width: 450px;
+        height: 380px;
+        max-height: 70vh;
+    }
+    .popup .overlay{
+        height: 112vh;
+        transform: translate(-50%, -59%);
+    }
+    h1{
+        font-size: 1.8rem;
+    }
+    img.pic{
+        margin: 5px 0 10px 0;
+    }
+    .flexbox{
+        margin: 0px 20px;
+        gap: 18px;
+    }
+    p{
+        font-size: 0.8rem;
+        max-width: 15.5rem;
+    }
+    .btn{
+        padding: 0.5rem 0.8rem;
+        font-size: 0.8rem;
+        margin: 5px 0;
+    }
+    .banner .clouds{
+        bottom: -15rem;
+    }
+    .copy{
+        bottom: -15rem;
+    }
+    .resize {
+        width: 1.8rem;
+        height: 1.8rem;
+        margin: 1rem 1.5rem;
+        opacity: 1;
+    }
+}
+@media (min-width: 601px) and (max-width: 850px){
+    body{
+        height: 155vh;
+    }
+    #image-track{
+        left: 40.5%;
+        top: 70%;
+    }
+    .popup .content {
+        width: 550px;
+        height: 450px;
+        max-height: 75vh;
+    }
+    .popup .overlay{
+        height: 210vh;
+        transform: translate(-50%, -59%);
+    }
+    h1{
+        font-size: 1.8rem;
+    }
+    .flexbox{
+        margin: 0px 25px;
+        gap: 13px;
+    }
+    p{
+        max-width: 20.5rem;
+    }
+    .btn{
+        padding: 0.5rem 0.8rem;
+        /* font-size: 0.8rem; */
+        margin: 5px 0;
+    }
+    .banner .clouds{
+        bottom: -21rem;
+    }
+    .copy{
+        bottom: -21rem;
+    }
+    .resize {
+        width: 1.8rem;
+        height: 1.8rem;
+        margin: 1.2rem 2.5rem;
+        opacity: 1;
+    }
 }
