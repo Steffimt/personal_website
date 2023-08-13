@@ -14,8 +14,8 @@
 }
 body{
     /* background-color: #010101; */
-    /* background: linear-gradient(180deg, #010101 93%, rgba(255, 255, 255, 0.00) 99.99%); */
-    background: #010101;
+    background: linear-gradient(180deg, #010101 93%, rgba(255, 255, 255, 0.00) 99.99%);
+    /* background: #010101; */
     color: #fff;
     /* font-family: raleway_f, sans-serif; */
     font-family: roboto;
@@ -118,7 +118,7 @@ body::-webkit-scrollbar {
     width: 0;
 }
 section{
-    min-height: 50rem;
+    min-height: 55.8rem;
     /* display: flex; */
     justify-content: center;
     align-items: center;
@@ -360,7 +360,7 @@ section .cards{
 .banner .clouds{
     position: absolute;
     /* margin-top: 5rem; */
-    bottom: -25.9rem;
+    bottom: -30rem;
     left: 0;
     width: 100%;
     height: 100%;
@@ -384,7 +384,7 @@ section .cards{
 }
 .copy{
     position: absolute;
-    bottom: -25rem;
+    bottom: -30rem;
     /* opacity: .45; */
     padding: 1rem;
     width: 100%;
@@ -455,6 +455,9 @@ section .cards{
     }
     .navbar .nav-links ul li.active a{
         text-shadow: 0px 0px 6.24px #ffdc69, 0px 0px 12.48px #ffdc69;
+    }
+    section{
+        min-height: 60.8rem;
     }
     section .container {
         margin: 10rem 4rem 100px 4rem;
@@ -559,6 +562,9 @@ section .cards{
     }
     .navbar .nav-links ul li.active a{
         text-shadow: 0px 0px 6.24px #ffdc69, 0px 0px 12.48px #ffdc69;
+    }
+    section{
+        min-height: 74.2rem;
     }
     section .container {
         margin: 10rem 4rem 100px 4rem;
@@ -665,6 +671,9 @@ section .cards{
     .navbar .nav-links ul li.active a{
         text-shadow: 0px 0px 6.24px #ffdc69, 0px 0px 12.48px #ffdc69;
     }
+    section{
+        min-height: 80.5rem;
+    }
     section .container {
         margin: 10rem 5rem 100px 5rem;
     }
@@ -769,6 +778,9 @@ section .cards{
     }
     .navbar .nav-links ul li.active a{
         text-shadow: 0px 0px 6.24px #ffdc69, 0px 0px 12.48px #ffdc69;
+    }
+    section{
+        min-height: 84rem;
     }
     section .container {
         margin: 10rem 6rem 100px 6rem;
@@ -875,6 +887,9 @@ section .cards{
     .navbar .nav-links ul li.active a{
         text-shadow: 0px 0px 6.24px #ffdc69, 0px 0px 12.48px #ffdc69;
     }
+    section{
+        min-height: 94rem;
+    }
     section .container {
         margin: 10rem 7rem 100px 7rem;
     }
@@ -980,6 +995,9 @@ section .cards{
     .navbar .nav-links ul li.active a{
         text-shadow: 0px 0px 6.24px #ffdc69, 0px 0px 12.48px #ffdc69;
     }
+    section{
+        min-height: 99rem;
+    }
     section .container {
         margin: 10rem 8rem 100px 8rem;
     }
@@ -1035,6 +1053,9 @@ section .cards{
     .navbar{
         position: absolute;
     }
+    section{
+        min-height: 109rem;
+    }
     section .container {
         margin: 10rem 11rem 100px 11rem;
     }
@@ -1089,7 +1110,7 @@ section .cards{
         position: absolute;
     }
     section{
-        min-height: 37rem;
+        min-height: 36.8rem;
     }
     section .container {
         margin: 10rem 5rem 100px 5rem;
@@ -1146,7 +1167,7 @@ section .cards{
         position: absolute;
     }
     section{
-        min-height: 27rem;
+        min-height: 44rem;
     }
     section .container {
         margin: 10rem 5rem 100px 5rem;
@@ -1188,11 +1209,11 @@ section .cards{
         padding-top: 3px;
     }
     .banner .clouds{
-        bottom: -12rem;
+        bottom: -18rem;
     }
     .copy{
         padding: 0.5rem;
-        bottom: -11rem;
+        bottom: -18rem;
     }
     .resize {
         margin: 1.2rem 2.5rem;

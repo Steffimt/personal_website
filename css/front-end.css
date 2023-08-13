@@ -939,7 +939,7 @@ section{
 }
 @media (min-width: 601px) and (max-width: 768px){
     .title{
-        margin-top: 9rem;
+        margin-top: 1.5rem;
     }
     section {
         padding: 2rem 0 0 0;
@@ -987,7 +987,7 @@ section{
 }
 @media(min-width: 769px) and (max-width: 900px){
     .title{
-        margin-top: 9rem;
+        margin-top: 1.5rem;
     }
     section {
         padding: 2rem 0 0 0;
@@ -1035,7 +1035,7 @@ section{
 }
 @media (min-width: 901px) and (max-width: 998px) {
     .title{
-        margin-top: 9rem;
+        margin-top: 1.5rem;
     }
     section {
         padding: 2rem 0 0 0;

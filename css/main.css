@@ -782,7 +782,7 @@ section .cards{
         font-size: 1.5rem;
     }
     section {
-        min-height: 75rem;
+        min-height: 83rem;
         display: flex;
     }
     section .container {
@@ -991,7 +991,7 @@ section .cards{
     }
 }
 
-@media (min-width: 376px) and (max-width: 425px){
+@media (min-width: 375px) and (max-width: 425px){
     body{
         /* height: none; */
         background: linear-gradient(180deg, #010101 98.5%, rgba(255, 255, 255, 0.00) 99.99%);
@@ -1416,8 +1416,8 @@ section .cards{
         font-size: 1.5rem;
     }
     section {
-        min-height: 75rem;
-        display: flex;
+        min-height: 83rem;
+        /* display: flex; */
     }
     section .container {
         margin: 13rem 7rem 100px 7rem;
@@ -1574,8 +1574,8 @@ section .cards{
         font-size: 1.5rem;
     }
     section {
-        min-height: 75rem;
-        display: flex;
+        min-height: 90rem;
+        /* display: flex; */
     }
     section .container {
         margin: 13rem 8rem 100px 8rem;
@@ -1749,7 +1749,7 @@ section .cards{
         font-size: 1.3rem;
     }
     section{
-        min-height: 49rem;
+        min-height: 54rem;
     }
     section .container {
         margin: 17rem 50px 100px 50px;
@@ -1792,7 +1792,7 @@ section .cards{
         margin: 26rem 5rem 0 15rem;
     }
     section{
-        min-height: 48rem;
+        min-height: 51rem;
     }
     .pic1{
         padding: 1.5rem 5px 0 5px;
