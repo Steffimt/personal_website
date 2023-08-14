@@ -118,7 +118,7 @@ body::-webkit-scrollbar {
     width: 0;
 }
 section{
-    min-height: 55.8rem;
+    min-height: 57rem;
     /* display: flex; */
     justify-content: center;
     align-items: center;

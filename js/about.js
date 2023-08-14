@@ -79,7 +79,7 @@ while (balls.length < 13) {
     random(size, width - size),
     random(size, height - size),
     random(-2, 2),
-    random(-3, 3),
+    random(-2, 2),
     size,
     `rgb(${random(0, 255)}, ${random(0, 255)}, ${random(0, 255)})`
   );
