@@ -566,7 +566,7 @@ section .cards{
         text-shadow: 0px 0px 6.24px #ffdc69, 0px 0px 12.48px #ffdc69;
     }
     section{
-        min-height: 74.2rem;
+        min-height: 86rem;
     }
     section .container {
         margin: 10rem 4rem 100px 4rem;
@@ -606,11 +606,11 @@ section .cards{
         font-size: 1.5rem;
     }
     .banner .clouds{
-        bottom: -52rem;
+        bottom: -46.5rem;
     }
     .copy{
         padding: 0.5rem;
-        bottom: -51.5rem;
+        bottom: -46.5rem;
     }
     .resize {
         width: 1.5rem;
@@ -715,11 +715,11 @@ section .cards{
         font-size: 1.5rem;
     }
     .banner .clouds{
-        bottom: -58.4rem;
+        bottom: -46.5rem;
     }
     .copy{
         padding: 0.5rem;
-        bottom: -58.2rem;
+        bottom: -46.5rem;
     }
     .resize {
         width: 1.5rem;
