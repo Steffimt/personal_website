@@ -440,6 +440,7 @@ section .cards{
     }
     .nav-links.mobile-menu-active{
         display: flex;
+        position: fixed;
     }
     .nav-links ul{
         display: flex;
@@ -457,10 +458,10 @@ section .cards{
         text-shadow: 0px 0px 6.24px #ffdc69, 0px 0px 12.48px #ffdc69;
     }
     section{
-        min-height: 60.8rem;
+        min-height: 67.8rem;
     }
     section .container {
-        margin: 10rem 4rem 100px 4rem;
+        margin: 12rem 4rem 100px 4rem;
     }
     section .cards{
         flex-direction: column;
@@ -497,11 +498,11 @@ section .cards{
         font-size: 1.5rem;
     }
     .banner .clouds{
-        bottom: -34.9rem;
+        bottom: -47.5rem;
     }
     .copy{
         padding: 0.5rem;
-        bottom: -34.9rem;
+        bottom: -47.5rem;
     }
     .resize {
         width: 1.5rem;
@@ -547,6 +548,7 @@ section .cards{
     }
     .nav-links.mobile-menu-active{
         display: flex;
+        position: fixed;
     }
     .nav-links ul{
         display: flex;
@@ -604,11 +606,11 @@ section .cards{
         font-size: 1.5rem;
     }
     .banner .clouds{
-        bottom: -48.5rem;
+        bottom: -52rem;
     }
     .copy{
         padding: 0.5rem;
-        bottom: -48.2rem;
+        bottom: -51.5rem;
     }
     .resize {
         width: 1.5rem;
@@ -618,7 +620,7 @@ section .cards{
     }
 }
 
-@media (min-width: 376px) and (max-width: 425px){
+@media (min-width: 375px) and (max-width: 425px){
     .navbar{
         padding: 0;
     }
@@ -655,6 +657,7 @@ section .cards{
     }
     .nav-links.mobile-menu-active{
         display: flex;
+        position: fixed;
     }
     .nav-links ul{
         display: flex;
@@ -712,11 +715,11 @@ section .cards{
         font-size: 1.5rem;
     }
     .banner .clouds{
-        bottom: -54.5rem;
+        bottom: -58.4rem;
     }
     .copy{
         padding: 0.5rem;
-        bottom: -54.2rem;
+        bottom: -58.2rem;
     }
     .resize {
         width: 1.5rem;
@@ -763,6 +766,7 @@ section .cards{
     }
     .nav-links.mobile-menu-active{
         display: flex;
+        position: fixed;
     }
     .nav-links ul{
         display: flex;
@@ -780,7 +784,7 @@ section .cards{
         text-shadow: 0px 0px 6.24px #ffdc69, 0px 0px 12.48px #ffdc69;
     }
     section{
-        min-height: 84rem;
+        min-height: 88rem;
     }
     section .container {
         margin: 10rem 6rem 100px 6rem;
@@ -820,11 +824,11 @@ section .cards{
         font-size: 2rem;
     }
     .banner .clouds{
-        bottom: -58rem;
+        bottom: -66rem;
     }
     .copy{
         padding: 0.5rem;
-        bottom: -57.9rem;
+        bottom: -64.9rem;
     }
     .resize {
         width: 1.8rem;
@@ -871,6 +875,7 @@ section .cards{
     }
     .nav-links.mobile-menu-active{
         display: flex;
+        position: fixed;
     }
     .nav-links ul{
         display: flex;
@@ -888,7 +893,7 @@ section .cards{
         text-shadow: 0px 0px 6.24px #ffdc69, 0px 0px 12.48px #ffdc69;
     }
     section{
-        min-height: 94rem;
+        min-height: 90rem;
     }
     section .container {
         margin: 10rem 7rem 100px 7rem;
@@ -979,6 +984,7 @@ section .cards{
     }
     .nav-links.mobile-menu-active{
         display: flex;
+        position: fixed;
     }
     .nav-links ul{
         display: flex;

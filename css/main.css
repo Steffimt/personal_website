@@ -746,7 +746,7 @@ section .cards{
         left: -5rem;
     }
     .main-article-content .biography {
-        margin: 17rem 2rem 0rem 7rem;
+        margin: 20rem 2rem 0rem 7rem;
     }
     .biography h3 {
         font-size: 1.5rem;
@@ -782,11 +782,11 @@ section .cards{
         font-size: 1.5rem;
     }
     section {
-        min-height: 83rem;
+        min-height: 80rem;
         display: flex;
     }
     section .container {
-        margin: 13rem 4rem 100px 4rem;
+        margin: 8rem 4rem 100px 4rem;
     }
     section h2{
         font-size: 2rem;
