@@ -135,7 +135,7 @@ body::-webkit-scrollbar {
     text-align: center;
 }
 section{
-    padding: 5rem 0 27.5rem 0;
+    padding: 5rem 0 22.5rem 0;
 }
 .container{
     margin-left: 60px;
@@ -281,7 +281,7 @@ section{
     position: absolute;
     /* margin-top: 5rem; */
     /* top: 0; */
-    bottom: -137rem;
+    bottom: -181rem;
     left: 0;
     width: 100%;
     height: 100%;
@@ -312,7 +312,7 @@ section{
 } */
 .copy{
     position: absolute;
-    bottom: -137rem;
+    bottom: -179rem;
     /* opacity: .45; */
     padding: 1rem;
     width: 100%;
@@ -395,7 +395,7 @@ section{
         padding: 0 40px;
         margin-left: 0;
         margin-right: 0;
-        height: 144rem;
+        height: 195rem;
     }
     .row{
         flex-wrap: wrap;
@@ -417,10 +417,10 @@ section{
     }
     .banner .clouds{
         height: 26%;
-        bottom: -124.5rem;
+        bottom: -185.5rem;
     }
     .copy{
-        bottom: -124rem;
+        bottom: -185.5rem;
     }
     .resize {
         width: 1.5rem;
@@ -594,7 +594,7 @@ section{
         padding: 0 50px;
         margin-left: 0;
         margin-right: 0;
-        height: 150rem;
+        height: 190rem;
     }
     .row{
         flex-wrap: wrap;
@@ -619,10 +619,10 @@ section{
     }
     .banner .clouds{
         height: 26%;
-        bottom: -130.5rem;
+        bottom: -185.5rem;
     }
     .copy{
-        bottom: -130.5rem;
+        bottom: -185.5rem;
     }
     .resize {
         width: 1.5rem;
@@ -696,7 +696,7 @@ section{
         padding: 0 50px;
         margin-left: 0;
         margin-right: 0;
-        height: 165rem;
+        height: 220rem;
     }
     .row{
         flex-wrap: wrap;
@@ -721,10 +721,10 @@ section{
     }
     .banner .clouds{
         height: 40%;
-        bottom: -150.9rem;
+        bottom: -215.5rem;
     }
     .copy{
-        bottom: -150.9rem;
+        bottom: -215.5rem;
     }
     .resize {
         width: 1.8rem;
@@ -798,7 +798,7 @@ section{
         padding: 0 50px;
         margin-left: 0;
         margin-right: 0;
-        height: 170rem;
+        height: 225rem;
     }
     .row{
         flex-wrap: wrap;
@@ -823,10 +823,10 @@ section{
     }
     .banner .clouds{
         height: 40%;
-        bottom: -155.9rem;
+        bottom: -220.9rem;
     }
     .copy{
-        bottom: -155.9rem;
+        bottom: -220.9rem;
     }
     .resize {
         width: 1.8rem;
@@ -900,7 +900,7 @@ section{
         padding: 0 4rem;
         margin-left: 0;
         margin-right: 0;
-        height: 170rem;
+        height: 230rem;
     }
     .row{
         flex-wrap: wrap;
@@ -925,10 +925,10 @@ section{
     }
     .banner .clouds{
         height: 40%;
-        bottom: -155.9rem;
+        bottom: -225.9rem;
     }
     .copy{
-        bottom: -155.9rem;
+        bottom: -225.9rem;
     }
     .resize {
         width: 1.8rem;
@@ -948,7 +948,7 @@ section{
         padding: 0 100px;
         margin-left: 0;
         margin-right: 0;
-        height: 192rem;
+        height: 248rem;
     }
     .row{
         flex-wrap: wrap;
@@ -973,10 +973,10 @@ section{
     }
     .banner .clouds{
         height: 45%;
-        bottom: -185rem;
+        bottom: -235rem;
     }
     .copy{
-        bottom: -185rem;
+        bottom: -235rem;
     }
     .resize {
         width: 1.8rem;
@@ -996,7 +996,7 @@ section{
         padding: 0 100px;
         margin-left: 0;
         margin-right: 0;
-        height: 208rem;
+        height: 285rem;
     }
     .row{
         flex-wrap: wrap;
@@ -1021,10 +1021,10 @@ section{
     }
     .banner .clouds{
         height: 50%;
-        bottom: -198.9rem;
+        bottom: -270.9rem;
     }
     .copy{
-        bottom: -198.9rem;
+        bottom: -270.9rem;
     }
     .resize {
         width: 1.8rem;
@@ -1044,7 +1044,7 @@ section{
         padding: 0 125px;
         margin-left: 0;
         margin-right: 0;
-        height: 222rem;
+        height: 292rem;
     }
     .row{
         flex-wrap: wrap;
@@ -1069,10 +1069,10 @@ section{
     }
     .banner .clouds{
         height: 50%;
-        bottom: -212.9rem;
+        bottom: -270.9rem;
     }
     .copy{
-        bottom: -212.5rem;
+        bottom: -270.9rem;
     }
     .resize {
         width: 1.8rem;
@@ -1086,14 +1086,14 @@ section{
         padding: 0 125px;
         margin-left: 0;
         margin-right: 0;
-        height: 105rem;
+        height: 150rem;
     }
     .banner .clouds {
         height: 100%;
-        bottom: -115.5rem;
+        bottom: -129.5rem;
     }
     .copy{
-        bottom: -115.5rem;
+        bottom: -129.5rem;
     }
 }
 @media(min-width: 1055px) and (max-width: 1400px){
